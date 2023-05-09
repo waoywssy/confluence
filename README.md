@@ -4,8 +4,8 @@
 default port: 8090
 
 + Long Term Support Version: v7(7.19.8)
-+ Latest Version: [v8(8.2.2)](https://github.com/haxqer/confluence/tree/v8)
-+ Latest Chinese Version: [v8(8.2.2-zh)](https://github.com/haxqer/confluence/tree/latest-zh) (Thanks to: [sunny1025g](https://github.com/sunny1025g) for the `zh` image. [#issues/16](https://github.com/haxqer/confluence/issues/16) )
++ Latest Version: [v8(8.2.2)](https://github.com/waoywssy/confluence/tree/v8)
++ Latest Chinese Version: [v8(8.2.2-zh)](https://github.com/waoywssy/confluence/tree/latest-zh) (Thanks to: [sunny1025g](https://github.com/sunny1025g) for the `zh` image. [#issues/16](https://github.com/waoywssy/confluence/issues/16) )
 
 ## Requirement
 - docker-compose: 17.09.0+
@@ -15,7 +15,7 @@ default port: 8090
 - start confluence & mysql
 
 ```
-    git clone https://github.com/haxqer/confluence.git \
+    git clone https://github.com/waoywssy/confluence.git \
         && cd confluence \
         && docker-compose up
 ```
@@ -81,7 +81,7 @@ docker exec confluence-srv java -jar /var/agent/atlassian-agent.jar \
 
 ```shell
 cd confluence && git pull
-docker pull haxqer/confluence:latest && docker-compose stop
+docker pull waoywssy/confluence:latest && docker-compose stop
 docker-compose rm
 ```
 
